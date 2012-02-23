@@ -1,5 +1,79 @@
-package (1.0.0) unstable; urgency=low
+cw1-6005-nm4e11 (1.0.0) stable; urgency=low
 
-  * Initial Release.
+  [NingMa <nm4e11@soton.ac.uk>]
+  * Update README
+  * update the README file
 
- -- rex <nm4e11@soton.ac.uk>  Wed, 22 Feb 2012 02:52:34 +0000
+ -- nm4e11 <nm4e11@soton.ac.uk>  Thu, 23 Feb 2012 18:56:39 +0000
+
+cw1-6005-nm4e11 (0.1.4) stable; urgency=low
+
+  [NingMa <nm4e11@soton.ac.uk>]
+  * update the basic debian files
+  * update the control file
+
+ -- NingMa <nm4e11@soton.ac.uk>  Thu, 23 Feb 2012 17:47:10 +0000
+
+cw1-6005-nm4e11 (0.1.3) unstable; urgency=low
+
+  [NingMa <nm4e11@soton.ac.uk>]
+  * add command for building package
+  * define the path of usr and etc files directory
+  * add new variables: index, rss_php, feeds and bush in rules
+
+ -- NingMa <nm4e11@soton.ac.uk>  Thu, 23 Feb 2012 17:08:17 +0000
+
+cw1-6005-nm4e11 (0.1.2) unstable; urgency=low
+
+  [NingMa <nm4e11@soton.ac.uk>]
+  * delete changed but no updated file
+  * delete test file
+  * update cw1-6005-nm4e11
+  * change position of feeds
+
+ -- NingMa <nm4e11@soton.ac.uk>  Thu, 23 Feb 2012 02:10:31 +0000
+
+cw1-6005-nm4e11 (0.1.1) unstable; urgency=low
+
+  [NingMa <nm4e11@soton.ac.uk>]
+  * rename news instead of cw1-6005-nm4e11 and update
+  * update.php file
+
+ -- NingMa <nm4e11@soton.ac.uk>  Thu, 23 Feb 2012 01:27:52 +0000
+
+cw1-6005-nm4e11 (0.1.0) unstable; urgency=low
+
+  [NingMa <nm4e11@soton.ac.uk>]
+  * update the copyright file
+  * update the control file
+
+ -- NingMa <nm4e11@soton.ac.uk>  Thu, 23 Feb 2012 00:40:41 +0000
+
+cw1-6005-nm4e11 (0.0.3) unstable; urgency=low
+
+  [NingMa <nm4e11@soton.ac.uk>]
+  * test
+  * delete files
+  * edit share files format
+  * add news
+
+ -- NingMa <nm4e11@soton.ac.uk>  Wed, 22 Feb 2012 21:05:29 +0000
+
+cw1-6005-nm4e11 (0.0.2) unstable; urgency=low
+
+  [NingMa <nm4e11@soton.ac.uk>]
+  * Adding initial php files
+  * Adding initial etc package files
+
+ -- NingMa <nm4e11@soton.ac.uk>  Wed, 22 Feb 2012 20:25:45 +0000
+
+cw1-6005-nm4e11 (0.0.1) unstable; urgency=low
+
+  [NingMa <nm4e11@soton.ac.uk>]
+  * Adding initial debian another package files
+  * Adding initial debian package file
+  * edited 1
+  * Adding empty README file
+
+ -- NingMa <nm4e11@soton.ac.uk>  Tue, 21 Feb 2012 20:54:03 +0000
+
