@@ -17,3 +17,50 @@ bash = $(CURDIR)/usr/bin/cw1-6005-nm4e11
 DIR_usr = $(CURDIR)/debian/cw1-6005-nm4e11/usr
 DIR_etc = $(CURDIR)/debian/cw1-6005-nm4e11/etc
 
+build:
+	dh_testdir
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+	dh_clean
+
+install: build clean $(index) $(rss_php) $(bash) $(feeds)
+	dh_testdir
+	dh_testroot
+	dh_prep
+	dh_installdirs
+
+	mkdir -m 755 -p $(DIR_usr)/share/cw1-6005-nm4e11
+	mkdir -m 755 -p $(DIR_usr)/bin
+	mkdir -m 755 -p $(DIR_etc)/cw1-6005-nm4e11
+
+	install -m 755 $(index) $(DIR_usr)/share/cw1-6005-nm4e11
+	install -m 755 $(rss_php) $(DIR_usr)/share/cw1-6005-nm4e11
+	install -m 755 $(bash) $(DIR_usr)/bin
+	install -m 755 $(feeds) $(DIR_etc)/cw1-6005-nm4e11
+
+# Build architecture-dependent files here.
+binary-arch: build install
+        dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_installexamples
+	dh_installdebconf
+	dh_installman
+	dh_link
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+# Build architecture-dependent files here.
+binary-arch: build install
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install
+
