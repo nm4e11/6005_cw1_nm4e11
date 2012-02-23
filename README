@@ -1,1 +1,26 @@
-The cousework of info6005
+CW1-6005-NM4E11
+
+  This is the first part of INFO6005 cousework.
+
+  Reference code from https://github.com/info6005/6005_cw1_2012, provided by University of     Southampton.	
+ 
+  cw1-6005-nm4e11 - Debian Package for a Simple PHP RSS Reader.
+
+Author: Ning Ma (nm4e11@soton.ac.uk)
+
+INSTALL
+
+  RUN dpkg -i cw1-6005-nm4e11.deb
+
+USAGE
+
+  RUN cw1-6005-nm4e11 to implement /usr/share/cw1-6005-nm4e11/index.php
+
+PACKAGE
+
+  RUN dpkg-buildpackage
+
+
+
+
+
