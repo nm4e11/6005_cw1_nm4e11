@@ -1,20 +1,16 @@
 This work was packaged for Debian by:
 
-    rex <nm4e11@soton.ac.uk> on Wed, 22 Feb 2012 02:52:34 +0000
+    Ning Ma <nm4e11@soton.ac.uk> on Wed, 22 Feb 2012 02:52:34 +0000
 
 It was downloaded from:
 
     https://github.com/nm4e11/6005_cw1_nm4e11
-
-Upstream Author(s):
-
-    Ning Ma 
-    Emial:nm4e11@soton.ac.uk
+    
 
 Copyright:
 
     Copyright (C) Ning Ma 2012
-    
+    Emial:nm4e11@soton.ac.uk
 
 License:
 
@@ -36,7 +32,7 @@ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
 The Debian packaging is:
 
-    Copyright (C) 2012 rex <nm4e11@soton.ac.uk>
+    Copyright (C) 2012 Ning Ma <nm4e11@soton.ac.uk>
 
 # Please chose a license for your packaging work. If the program you package
 # uses a mainstream license, using the same license is the safest choice.
@@ -46,5 +42,4 @@ The Debian packaging is:
 
 and is licensed under the GPL version 3, see above.
 
-# Please also look if there are files or directories which have a
-# different copyright/license attached and list them here.
+
