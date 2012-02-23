@@ -1,15 +1,14 @@
-Source: package
-Section: unknown
-Priority: extra
+Source: cw1-6005-nm4e11
+Section: php
+Priority: optional
 Maintainer: rex <nm4e11@soton.ac.uk>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
-Homepage: <insert the upstream URL, if relevant>
+Homepage: <https://github.com/nm4e11/6005_cw1_nm4e11>
 #Vcs-Git: git://git.debian.org/collab-maint/package.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/package.git;a=summary
 
-Package: package
+Package: cw1-6005-nm4e11
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${misc:Depends}, debconf, php5-cli (>= 5)
+Description: the RSS Reader for info6005, writen by University of Southampton, ECS, packaged by nm4e11
